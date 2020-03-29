@@ -1,7 +1,9 @@
+import styles from '../styles/Index.scss'
+
 const Index = () => {
   return (
     <div>
-      <h1>Hello Next</h1>
+      <h1 className={styles.index}>Hello Next</h1>
     </div>
   )
 }
